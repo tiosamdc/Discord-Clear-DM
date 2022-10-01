@@ -16,7 +16,7 @@ type('color f')                                                                 
 token = "token"
 prefix = "/" 
 
-print("Use, /clean")
+input("Use, /clean (Press enter)")
 
 os.system('color f')
 bot = commands.Bot(command_prefix=prefix, self_bot=True)
